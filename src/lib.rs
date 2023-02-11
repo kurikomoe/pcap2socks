@@ -2,7 +2,7 @@
 
 //! Redirect traffic to a SOCKS proxy with pcap.
 
-use ipnetwork::Ipv4Network;
+use pnet::ipnetwork::Ipv4Network;
 use log::{debug, info, trace, warn};
 use lru::LruCache;
 use rand::{self, Rng};

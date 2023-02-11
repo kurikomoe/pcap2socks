@@ -1,5 +1,5 @@
 use env_logger::fmt::{Color, Formatter, Target};
-use ipnetwork::Ipv4Network;
+use pnet::ipnetwork::Ipv4Network;
 use log::{error, info, warn, Level, LevelFilter, Log, Metadata, Record};
 use std::clone::Clone;
 use std::fmt::Display;
